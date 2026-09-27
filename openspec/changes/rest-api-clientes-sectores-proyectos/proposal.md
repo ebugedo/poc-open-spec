@@ -14,9 +14,9 @@ Provide a REST API to test and demonstrate the OpenSpec workflow, covering core 
 
 ### New Capabilities
 
-- `api/clients`: REST endpoint for managing clients (including logo attribute)
-- `api/sectors`: REST endpoint for managing sectors
-- `api/projects`: REST endpoint for managing projects with start date (month/year) and duration (months)
+- `clients`: REST endpoint for managing clients (including logo attribute) (also usable via gRPC or other mechanisms in the future)
+- `sectors`: REST endpoint for managing sectors (also usable via gRPC or other mechanisms in the future)
+- `projects`: REST endpoint for managing projects with start date (month/year) and duration (months) (also usable via gRPC or other mechanisms in the future)
 - `ci-cd/vps`: CI/CD pipeline configuration for VPS deployment
 
 ### Modified Capabilities
@@ -25,5 +25,5 @@ Provide a REST API to test and demonstrate the OpenSpec workflow, covering core 
 
 ## Impact
 
-- New specs under `specs/api/clients/`, `specs/api/sectors/`, `specs/api/projects/`, `specs/ci-cd/vps/`
-- Design and tasks for API implementation and deployment pipeline
+- New specs under `specs/clients/`, `specs/sectors/`, `specs/projects/`, `specs/ci-cd/vps/`
+- Design and tasks for implementation and deployment pipeline
