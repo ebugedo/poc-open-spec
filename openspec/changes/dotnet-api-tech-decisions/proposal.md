@@ -7,24 +7,8 @@ Define and formalize the technology stack decisions for the .NET REST API projec
 ## What Changes
 
 - Update design.md with specified technology stack for .NET 8 REST API
-- Add capabilities for each technology component
+- Document technology decisions for team consistency
 - Ensure all new projects follow these standardized decisions
-
-## Capabilities
-
-### New Capabilities
-
-- `api/aspnetcore`: .NET 8 ASP.NET Core framework for REST API development
-- `api/autofac`: Dependency injection with Autofac container
-- `api/swagger`: OpenAPI/Swagger documentation generation
-- `api/postgresql`: PostgreSQL database integration
-- `api/entityframeworkcore`: ORM with Entity Framework Core
-- `api/testing`: Test framework with xUnit, Moq, and Bogus
-- `ci-cd/github-actions`: GitHub Actions workflows for CI/CD
-
-### Modified Capabilities
-
-- None - all are new capabilities for this change
 
 ## Impact
 
