@@ -1,2 +1,6 @@
 schema: spec-driven
 created: 2026-09-27
+
+# This change does not define business capabilities, only data model decisions.
+# Setting skip_specs: true since no capability specs are required.
+skip_specs: true
